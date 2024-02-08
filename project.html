@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>PROJECT</title>
+
+    <!--프리텐다드-->
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+
+    <!--파비콘-->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!--슬라이드-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+
+    <!--css 밑에-->
+    <link rel="stylesheet" href="./css/project.css">
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <div class="header_inner">
+
+            <!--로고 회전 박스-->
+            <div class="logo_container">
+                <div class="logo_main">
+                    <div class="logo_front">
+                        <a href="#"><img src="./images/logored.png" alt="home logo"></a>
+                    </div>
+                    <div class="logo_back">
+                        <a href="#"> <img src="./images/logored.png" alt="home logo"></a>
+                    </div>
+                </div>
+                <!--로고 회전 박스-->
+            </div>
+
+            <ul class="gnb">
+                <li><a href="#">SHOP</a>
+                </li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="#">CUMMUNITY</a></li>
+            </ul>
+
+            <ul class="login">
+                <li><a href="#">login</a></li>
+                <li><a href="#">cart</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--header-->
+
+    <div class="project_bg">
+
+        <div id="project">
+
+            <!-- Swiper1메인 -->
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/project/collection (1).png" alt="collection"></div>
+                    <div class="swiper-slide"><img src="./images/project/collection (2).png" alt="collection"></div>
+                    <div class="swiper-slide"><img src="./images/project/collection (3).png" alt="collection"></div>
+                    <div class="swiper-slide"><img src="./images/project/collection (4).png" alt="collection"></div>
+                    <div class="swiper-slide"><img src="./images/project/collection (5).png" alt="collection"></div>
+                    <div class="swiper-slide"><img src="./images/project/collection (6).webp" alt="collection"></div>
+                </div>
+
+            </div> <!-- Swiper -->
+
+
+
+            <!-- Swiper2서브 -->
+            <div class="swiper swiper2">
+                <!-- Swiper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/project/cube (1).png" />
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./images/project/cube (2).png" />
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./images/project/cube (3).png" />
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./images/project/cube (4).png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--project-->
+        <p class="txt"><a href="#"><img src="./images/project/txt.png" alt="slogan"></a></p>
+    </div>
+    <!--projectbg-->
+
+
+    <!--footer-->
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="footer_text">
+                <ul class="footer_hover">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+                <ul class="fax">
+                    <li>사업장소재지 ) 서울특별시 성동구 아차산로 18길 158-8, 1층 </li>
+                    <li>팩스 ) 070-8878-0000</li>
+                </ul>
+
+                <ul class="fax">
+                    <li>사업자등록번호 ) 2231-888-79575</li>
+                    <li>통신판매업신고 ) 2024-서울성동-0182152</li>
+                    <li><a href="#">사업자정보확인</a></li>
+                </ul>
+            </div>
+
+            <ul class="sns">
+                <li><a href="#"><img src="./images/KAKAKO.png" alt="카카오톡" width="40px"></a></li>
+                <li><a href="#"><img src="./images/YOU.png" alt="유튜브" width="40px"></a></li>
+                <li><a href="#"><img src="./images/INS.png" alt="인스타" width="40px"></a></li>
+                <li><a href="#"><img src="./images/logow(2).png" alt="main home" width="65px"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--footer-->
+
+
+    <!-- 메인스와이퍼 -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            direction: "vertical",
+            slidesPerView: "auto",
+            freeMode: true,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+            },
+            mousewheel: true,
+            autoplay: {
+                delay: 1500,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            speed: 4000,
+        });
+    </script>
+
+    <!--서브 스와이퍼 -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper2", {
+            effect: "cube",
+            grabCursor: true,
+            autoplay: {
+                delay: 3800,
+            },
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 15,
+                shadowScale: 0.9,
+            },
+        });
+    </script>
+</body>
+
+</html>
