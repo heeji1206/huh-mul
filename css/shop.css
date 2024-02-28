@@ -1,39 +1,6 @@
 @charset "utf-8";
 
 
-/*프리텐다드체*/
-
-/*코딩체*/
-@font-face {
-    font-family: 'D2Coding';
-    src: url('D2Coding.woff2') format('woff2'),
-        url('D2Coding.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'D2Coding';
-    src: url('D2CodingBold.woff2') format('woff2'),
-        url('D2CodingBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-/*catchye*/
-@font-face {
-    font-family: 'Catchye Demo';
-    src: url('CatchyeDemo.woff2') format('woff2'),
-        url('CatchyeDemo.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
 *{
 margin: 0;
 padding: 0;}

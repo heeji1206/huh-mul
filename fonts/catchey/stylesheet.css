@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Catchye Demo';
+    src: url('CatchyeDemo.woff2') format('woff2'),
+        url('CatchyeDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
